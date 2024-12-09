@@ -1,0 +1,30 @@
+/* Ensure the elements are aligned to the left with a slight margin */
+body {
+    margin: 0;
+    padding: 10px; /* Adds a slight margin from the edges of the body */
+    font-family: Arial, sans-serif; /* Optional: Adds a clean font style */
+    /* display: flex;
+    flex-direction: column; */
+    min-width: 400px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+button{
+    margin-top: 4px;
+    background-color: rgb(66, 128, 0);
+    /* padding: 5px; */
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+#dlt-btn{
+    background-color: red
+}
+
